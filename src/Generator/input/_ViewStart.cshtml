@@ -1,0 +1,8 @@
+﻿@using Microsoft.AspNetCore.Http
+
+@{
+    var url = new Uri( Document.GetLink( true ) );
+    HttpContext.Request.Host = new HostString( url.Host );
+    HttpContext.Request.Path = url.AbsolutePath;
+    HttpContext.Request.Scheme = url.Scheme;
+}

@@ -1,0 +1,11 @@
+﻿<Project>
+    
+    <PropertyGroup>
+        <Features>strict</Features>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <TargetFramework>net7.0</TargetFramework>
+    </PropertyGroup>
+
+</Project>

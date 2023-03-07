@@ -1,0 +1,16 @@
+﻿<PageTitle>@Title</PageTitle>
+
+<h1>@Title</h1>
+
+<button @onclick=@Clicked>Clicked: @count</button>
+
+@code {
+
+    private int count = 0;
+
+    [Parameter]
+    [EditorRequired]
+    public string Title { get; set; } = string.Empty;
+
+    private void Clicked( ) => count++;
+}

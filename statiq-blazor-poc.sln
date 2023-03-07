@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33417.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16781AF0-9A54-4AA0-96C6-4B8ABB4A2E17}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatiqBlazor.Generator", "src\Generator\StatiqBlazor.Generator.csproj", "{3F5D833C-4773-4C5A-9568-AD12A06FD3A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatiqBlazor.App", "src\App\StatiqBlazor.App.csproj", "{1242725E-D72C-4298-9E19-86720155F150}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{B0C362FA-ECFA-4577-83BC-2ED25A6F0A61}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.filenesting.json = .filenesting.json
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F5D833C-4773-4C5A-9568-AD12A06FD3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5D833C-4773-4C5A-9568-AD12A06FD3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5D833C-4773-4C5A-9568-AD12A06FD3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5D833C-4773-4C5A-9568-AD12A06FD3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1242725E-D72C-4298-9E19-86720155F150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1242725E-D72C-4298-9E19-86720155F150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1242725E-D72C-4298-9E19-86720155F150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1242725E-D72C-4298-9E19-86720155F150}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F5D833C-4773-4C5A-9568-AD12A06FD3A2} = {16781AF0-9A54-4AA0-96C6-4B8ABB4A2E17}
+		{1242725E-D72C-4298-9E19-86720155F150} = {16781AF0-9A54-4AA0-96C6-4B8ABB4A2E17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD0BF19C-1ADA-4640-8561-66DFC229D120}
+	EndGlobalSection
+EndGlobal

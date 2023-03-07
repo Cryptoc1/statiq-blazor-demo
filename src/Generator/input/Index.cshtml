@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/_framework/blazor.webassembly.js" rel="preload" as="script" asp-append-version="true" />
+    <link href="/_framework/blazor.boot.json" rel="prefetch" as="fetch" asp-append-version="true" />
+
+    <component type="@typeof( HeadOutlet )" render-mode="@RenderMode.Static" />
+</head>
+
+<body>
+    <component type="@typeof( Home )" param-Title="@Document.GetTitle()" render-mode="@RenderMode.WebAssemblyPrerendered" />
+
+    <script src="/_framework/blazor.webassembly.js" asp-append-version="true"></script>
+</body>
+
+</html>
